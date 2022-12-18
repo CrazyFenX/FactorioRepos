@@ -18,23 +18,3 @@ git remote show FactorioRepos
 @echo Check it. If it's good, press any key
 
 pause
-
-git add .
-git status
-git diff
-@echo Check your changes. If it's good, press any key
-
-pause
-
-rem Определяем текущую дату
-for /F "tokens=2" %%i in ('date /t') do set mydate=%%i
-set mytime=%time%
-
-rem Фиксируем изменения
-@echo Commiting...
-git commit -m "commit by %mydate%:%mytime%"
-@echo commit has been planted \^0\^
-
-Pushing...
-git push origin master
-@echo push has been planted
