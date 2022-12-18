@@ -10,7 +10,8 @@ rem git config --global user.email "%2"
 git config --global user.name "CrazyFenX"
 git config --global user.email "kattoshkin@gmail.com"
 
-git remote add FactorioRepos https://github.com/CrazyFenX/FactorioRepos.git
+rem git remote add FactorioRepos https://github.com/CrazyFenX/FactorioRepos.git
+git remote add FactorioRepos https://github.com/CrazyFenX?tab=repositories/
 git remote show FactorioRepos
 
 @echo !!! Repos has been connected !!!
