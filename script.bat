@@ -13,6 +13,8 @@ git config --global user.email "kattoshkin@gmail.com"
 git remote add FactorioRepos https://github.com/CrazyFenX/FactorioRepos.git
 git remote show FactorioRepos
 
+git status
+
 @echo !!! Repos has been connected !!!
 
 @echo Check it. If it's good, press any key
@@ -20,7 +22,6 @@ git remote show FactorioRepos
 pause
 
 git add .
-git status
 git diff
 @echo Check your changes. If it's good, press any key
 
