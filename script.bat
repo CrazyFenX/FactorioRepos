@@ -36,5 +36,5 @@ git commit -m "commit by %mydate%:%mytime%"
 @echo commit has been planted ^-^
 
 @echo Pushing...
-git push origin main
+git push origin master
 @echo push has been planted 0.o
